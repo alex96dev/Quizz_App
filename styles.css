@@ -1,3 +1,80 @@
 h1 {
-    color: green;
+    color: black;
+}
+
+.navbar2 {
+    display: flex;
+    border-bottom:double;
+    justify-content: center;;
+}
+
+.navbar {
+    display: flex;
+    border-top:double;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.show_answer {
+    display:flex;
+    background-color: aqua;
+    border-style:double;
+    margin-top: 60px;
+}
+
+.show_answer:hover {
+flex-direction: row-reverse;
+background-color: white;
+}
+
+.tags {
+    border-radius: 15px;
+    border-style: double;
+    padding: 5px;
+}
+
+.tags_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.box1 {
+    flex-direction: column;
+    border-style: double;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    min-height: 400px;
+}
+
+.box2 {
+    flex-direction: column;
+    border-style: double;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    min-height: 400px;
+}
+
+.two_boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+header{
+    background-color:gold;
+    position: sticky;
+    top: 0px;
+
+}
+
+footer {
+    background-color:gold;
+    position: sticky;
+    bottom: 0px;
 }
